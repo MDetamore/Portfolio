@@ -1,0 +1,2 @@
+<h2>Editors and IDEs</h2>
+<p class="indenttext">My preferred code editors and IDEs are Eclipse, VIM, and XCode. I'm most familiar with them and readily use their built in features and shortcuts, such as the SVN capabilities in Eclipse and the ease of quick file modification with VIM. I am also familiar with editors such as Brackets, Sublime, and Notepad++, including many of their add-on modules.</p>

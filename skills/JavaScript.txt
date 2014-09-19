@@ -1,0 +1,3 @@
+<h2>JavaScript</h2>
+<p class="bold">How I've Used It</p><p class="indenttext">I've used JavaScript in nearly all web projects I've worked on personally, for work, and at school. </p>
+<p class="bold">Associated Skills</p><p class="indenttext">jQuery, KineticJS, AJAX, JSON, XML, form validation, cross-browser testing and support, XSS prevention</p>

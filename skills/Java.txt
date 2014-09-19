@@ -1,0 +1,5 @@
+<h2>Java</h2>
+<p class="bold">How I've Used It</p><p class="indenttext">I've used Java for personal, school and work projects in a variety of settings, including Android, small desktop applications, and web applications.</p>
+<p class="bold">Familiar Concepts</p><p class="indenttext">Multi-Threading, Services, Low-Level Audio PCM Processing, Animations using SurfaceView/Canvas, Apache Tomcat setup and configuration</p>
+<p class="bold">SDKs and APIs Used</p><p class="indenttext">Android, XML parser, Swing</p>
+

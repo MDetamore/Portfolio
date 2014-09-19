@@ -1,0 +1,271 @@
+
+/*********************
+*     GLOBAL         *
+*********************/
+@font-face { font-family: 'cinzel';  src:    url('/font/Cinzel-Regular.ttf'); }
+@font-face { font-family: 'message';  src: url('/font/Waiting for the Sunrise.ttf'); }
+@font-face { font-family: 'molengo';  src: url('/font/Molengo-Regular.ttf'); }
+@font-face { font-family: 'ubuntu';  src: url('/font/Ubuntu-Regular.ttf'); }
+@font-face { font-family: 'test';  src: url('/font/DroidSansMono.ttf'); }
+
+body {margin:0px;background-color:#EEE;font-family:"molengo";}/*"Merriweather Sans";}*/
+a {color:#FFFFFF;text-decoration:none;}
+a:hover {color:#CCCCCC;}
+img {position:relative;}
+ul {list-style:none;margin:0;padding:10;} 
+ul#buttons-list li {display:inline;padding:0px 20px;}
+h2 {border-bottom:2px solid;}
+.label {font-family:"Courier";font-size:1.4em;padding-top:15px;}
+.boldheader {font-weight:bold;font-size:1.3em;}
+.btnmore {position:relative;background-color:blue;font-size:1.1em;width:4.4em;height:auto;color:#FFFFFF;padding:4px 10px;bottom:0px;left:0px;cursor:pointer;}
+.btnmore:hover {background-color:#0022DD;color:#DDDDDD;}
+/**/
+#preview{
+	position:absolute;
+	border:3px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	box-shadow: 4px 4px 3px rgba(103, 115, 130, 1);
+}
+
+
+#profilebasicslabel2 {position:relative;float:right;width:400px;}
+/*********************
+*  GLOBAL CLASSES    *
+*********************/
+.hidden {display:none}
+.heading {font-family:"ubuntu";font-size:28px;clear:both;position:relative;margin:10px 0px;border-bottom:3px solid black;height:50px; width:100%;}
+.heading p {position:absolute;margin:0px;bottom:0px;}
+.bold {font-size:1.2em;line-height: 0.6em;}
+.shadowbox {margin:15px 0px;box-shadow:0px 0px 14px 0px #000000;}
+.gradientdiv {clear:both;position:relative;left:0%;min-width:820px;min-height:100px;padding:20px 15px; margin:auto;}
+
+.indenttext {text-indent:1.8em;} 
+li.indenttext:before {content:"- ";}
+.nomargintopbottom {margin-top:0px;margin-bottom:0px}
+.indentmargin {margin-left:2em;}
+/*
+.gradientdiv:before, .gradientdiv:after {
+	content: "";
+	position: absolute;
+	left: -2px;   top:-2px;	
+}
+.gradientdiv:before {
+    bottom:-2px;
+	width: 2px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(transparent));        
+	background-image: -webkit-linear-gradient(#000000, transparent 100%);
+	background-image: -moz-linear-gradient(#000,transparent 80%);
+	background-image: -o-linear-gradient(#000,transparent 80%);
+}
+.gradientdiv:after {
+	right: -2px;
+	height: 2px;
+	background-image: -webkit-gradient(linear, left bottom, right bottom, from(#000), to(transparent));
+	background-image: -webkit-linear-gradient(left, #000000, transparent 100%);
+	background-image: -moz-linear-gradient(left, #000, transparent 100%);
+	background-image: -o-linear-gradient(left, #000, transparent 80%);
+}*/
+
+
+/*.gradienttop {clear:both;position:relative;left:0%;width:100%;min-height:100px;padding:0px;margin-top:15px;margin-bottom:5px;}
+.gradienttop:before, .gradienttop:after {
+	content: "";
+	position: absolute;
+	left: -2px;   top:-2px;	
+}
+.gradienttop:after {
+	right: -2px;
+	height: 2px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#000), to(transparent));
+	background-image: -webkit-linear-gradient(left, transparent, #000000 100%);
+	background-image: -moz-linear-gradient(left, #000, transparent 80%);
+	background-image: -o-linear-gradient(left, #000, transparent 80%);
+}*/
+
+.shadow {background-color:#DDDDDD;box-shadow:0px 0px 14px 0px #000000;}
+
+/*********************
+*      HEADER        *
+*********************/
+#header-div {background-color:#444444;width:100%;height:100px;border-bottom:1px solid white;box-shadow: 0px 0px 8px 3px #888;}
+#header-div h1 {display:inline;line-height:28px;color:white;}
+#buttons-list {font-family:"molengo";}
+#header-holder-div {width:960px;margin:auto;}
+#myname {font-family:'cinzel';position:relative;float:left;padding-top:20px;padding-bottom:20px;}
+#myname h3 {font-family:'test';display:inline;position:relative;bottom:20px;left:10px;}
+#nav-holder {background-color:rgba(0,255,100,0.4);}
+#buttons-div {position:relative;float:right;right:0px;width:59%;margin-top:25px;border-top-left-radius: 8px;border-bottom-left-radius: 8px;z-index: 10;}
+#buttons-div.fixed {position:fixed;top:0px;right:0px;margin-top:0px;background-color:rgba(100,100,100,0.8);}
+#message{font-family:'message';margin:0px;font-size:18px;margin-left:23px;}
+#messagebubble{width:960px;margin:auto;background-color:azure;border-left:1px solid grey; border-bottom:1px solid grey;border right:1px solid grey; padding:0px;border-bottom-left-radius:15px;border-bottom-right-radius:15px;box-shadow:0px 6px 10px 0px grey inset;}
+#navtop {visibility:hidden;position:absolute;right:18px;top:16px;background-image:url("/img/sprite.png");background-position:-13px 0px;width:13px;height:7px;z-index:11;}
+#navtop:hover{background-position:-26px 0px;cursor:pointer;}
+
+#hidebtn {visibility:hidden;position:fixed;right:59%;top:6px;background-color:rgba(100,100,100,0.5);padding:3px;border-top-left-radius:3px;border-bottom-left-radius: 3px;box-shadow:inset -4px 0px 3px -3px #222;z-index:10;}
+#hidebtnsprite {background-image:url("/img/sprite.png");background-position:0px -9px;width:14px;height:21px;}
+#hidebtn:hover {background-color:rgba(100,100,100,0.8);}
+
+#hidebtnsprite:hover{background-position:-19px -9px;cursor:pointer;}
+#hidebtn.collapsed {right:0px;}
+#hidebtn.collapsed > #hidebtnsprite {background-position:-39px 0px;height:28px;width:20px;}
+#hidebtn.collapsed > #hidebtnsprite:hover {background-position:-58px 0px;cursor:pointer;}
+
+/*********************
+*    MAIN CONTENT    *
+*********************/
+/*#content {width:960px;margin:auto;background-color:#E5E5E5;}border:1px solid #555555;border-radius:6px;}*/
+.odd {background-color:#EAEAEA;box-shadow:inset 0px 8px 9px -7px #888;padding-bottom:20px;}
+.even {background-color:#FAFAFA;border-top:1px solid #AAA;border-bottom:1px solid #AAA;box-shadow:0px 0px 8px 1px #888;padding-bottom:20px;}
+.box {width:960px;margin:auto;}
+/*********************
+*      PROFILE       *
+*********************/
+#profilebasics {position:relative;left:3%;}
+#profilesummarylabel {position:relative;left:3%;}
+#profilesummary {position:relative;left:3%;width:400px;height:500px;}
+#summarymore {position:relative;display:none;}
+
+/*********************
+*      SKILLS        *
+*********************/
+#skillicons {width:70%; text-align:center; margin:auto;font-size:30px;}
+#skillicons img {height:70px;}
+#skills {clear:both;position:relative;margin:auto;}
+#skillscontent {min-width:850px;}
+/*#skill-description {position:relative;width:800px;height:200px;background-color:white;border:1px solid black;border-radius:10px;}*/
+.ratingbarfull {position:relative;width:200px;height:150px;background-color:#222222;border:1px solid grey;font-size:40px;}
+.ratingbarfiller {position:relative;float:left;height:20px;background-color:#22CC22;margin-top:0px;}
+.ratingbarfiller.hovered{background-color:#55FF55;}
+.ratingbarfiller p {display:inline;font-size:14px;}
+#skillcenter {width:60%;height:500px;vertical-align:top;}
+#skillcenter .bold {border-bottom:1px solid #DDD;font-family:"Courier New";padding:10px 6px 6px;}
+#skilldesc {position:relative;margin:auto;width:90%;height:500px;background-color:#FCFCFC;border:2px solid #AAAAAA;padding:0px 10px;}
+
+/* Languages */
+    #languageskills, #environmentskills {clear:both;position:relative;min-height:600px;}
+	.tableheading {border-bottom:1px solid black; height:30px;text-align:center;}
+	/*td:not(.spacercolumn){text-align:right;height:45px;padding:0px 10px;}*/
+	td.name {color:#555555;width:200px;height:45px;}
+	.bigtext {font-size:1.44em;color:#000000 !important;}
+	td.name.hovered {color:#000000;cursor:pointer;}/*padding-bottom:-10px;}*/
+	.rightbar {text-align:left;padding-left:5px;}
+	.center {text-align:center;}
+	.leftbar {text-align:right;padding-right:5px;}
+	#skillstablediv {position:relative;float:left;margin-top:10px;}
+	.spacercolumn {background-image: -webkit-linear-gradient(#000000,transparent);background-image: linear-gradient(#000000,transparent);padding-right:1px;}
+	/*.languagename {position:relative;float:left;width:45%;border:1px solid black;}*/
+	/*.ratingbarfull {position:relative;float:right;border:1px solid black;}*/
+
+	/* Skill Description */
+	/*#skilldesc:before, #skilldesc:after {content:" ";position:absolute;right:100%;top:10%;border:solid transparent;height:0px;width:0px;pointer-events:none;}
+	#skilldesc:before {border-color:#CCCCCC;border-width:11px;margin-top:-11px;}
+	#skilldesc:after {border-color:#CCCCCC;border-width:10px;margin-top:-10px;	}*/
+
+    #environmentskills {}
+
+	.leftarrow, .rightarrow {position:relative;background:#FFFFFF;border: 2px solid #AAAAAA;}
+	.leftarrow:after, .leftarrow:before {right:100%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;}
+	.rightarrow:after, .rightarrow:before {left:100%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;}
+
+
+    /*.leftarrow:after, .leftarrow:before {right:100%;}
+    .rightarrow:after, .rightarrow:before {left:100%;}*/
+    .leftarrow:after {border-color:rgba(204, 204, 204, 0);border-right-color:#ffffff;border-width:18px;margin-top:-18px;}
+    .leftarrow:before {border-color:rgba(204, 204, 204, 0);border-right-color:#AAAAAA;border-width:21px;margin-top:-21px;}
+    .rightarrow:after {border-color:rgba(255, 255, 255, 0);border-left-color:#ffffff;border-width:18px;margin-top:-18px;}
+
+    .rightarrow:before {border-color:rgba(204, 204, 204, 0);border-left-color:#AAAAAA;border-width:21px;margin-top:-21px;}
+    
+
+.arrow1:before, .arrow1:after {
+    top:73px;
+}
+.arrow2:before, .arrow2:after {
+    top:140px;
+}
+.arrow3:before, .arrow3:after {
+    top:207px;
+}
+.arrow4:before, .arrow4:after {
+    top:274px;
+}
+.arrow5:before, .arrow5:after {
+    top:340px;
+}
+.arrow6:before, .arrow6:after {
+    top:402px;
+}
+.arrow7:before, .arrow7:after {
+    top:470px;
+}
+.arrow8:before, .arrow8:after {
+    top:422px;
+}
+.arrow9:before, .arrow9:after {
+    top:474px;
+}
+.arrow10:before, .arrow10:after {
+    top:526px;
+}
+.arrow11:before, .arrow11:after {
+    top:578px;
+}
+/*********************
+*     EDUCATION      *
+*********************/
+/* Kent */
+#kentheader {display:block;margin-left:20px;}
+.courses {position:relative;background-color:#FAFAFA;border:1px solid black;width:250px;height:22px;}
+.courses .down {position:absolute;right:6px;top:6px;background-image:url("/img/sprite.png");background-position:0px 0px;width:14px;height:10px;float:left;}
+.coursetablediv {position:absolute;left:-1px;background-color:#FAFAFA;width:250px;border-left:1px solid black;border-right:1px solid black;border-bottom:1px solid black;margin-auto;}
+#educationcontent {}
+/*.edutable {clear:both;position:relative;overflow:hidden;float:left;width:40%;}*/
+.edutable td {height:20px;text-align:center;z-index: 10;}
+/*.coursetablediv {position:relative;overflow:hidden;float:left;z-index: 10;}*/
+#kentcontent {position:relative;float:left;margin-left:10px;width:40%;z-index:2}
+
+/* O'rilley */
+#orilleyheader {display:block;margin-left:20px;}
+#orilleycontent {position:relative;float:left;width:40%;}
+/*********************
+*     EMPLOYMENT     *
+*********************/
+/*********************
+*      PROJECTS      *
+*********************/
+/*.projectdesc {position:absolute;float:left;height:400px;width:100%;border:1px solid black;}*/
+.projectholder {position:relative;width:100%;min-height:400px;overflow:auto;background-color:#FAFAFA;border:2px solid white;box-shadow:0px 0px 8px 0px #000000;padding:10px;margin:20px;}
+/*.projectholder.even > table.projectdetails {position:relative;float:left;}*/
+.projectscreenshot {position:relative;float:right;}
+.projectdetails {position:relative;float:left;}
+.projectdetails tr td {text-align:left;padding:6px;}
+.projectdetails .spacercolumn {padding:0px;width:1px;}
+.screenscol {width:100px;}
+#dsss {width:200px;height:300px;}
+#vsss {width:200px;height:300px;}
+#pfss {width:350px;height:200px;}
+#tsss {width:350px;height:158px;}
+#vbpmss {width:130px;height:249px;}
+#bgss {width:250px;height:187px;}
+.projectdetails tr td.tdlabel {border-bottom:1px solid #DDD;font-family:"Courier New";padding:10px 6px 6px;}
+
+/*********************
+*      CONTACT       *
+*********************/
+#contact {min-height:300px;}
+#contactleft {position:relative;float:left;width:30%;margin-top:1.4em;}
+#contactright {font-family: 'message';position:relative;float:left;width:60%;min-height:120px;margin-left:4%;padding:8px 15px;background-color:white;border:2px solid #333333;margin-top:1.4em;font-size:18px;}
+#contacttable td {height:auto;text-align:left;}
+#contacttable tr label {font-size:0.9em;}
+#contacttable input {height:25px;padding:5px;font-size:14px;}
+#contacttable textarea {font-size:14px;margin:0px;font-family:"Tahoma";}
+#messagesent {display:none;position:relative;padding:10px;float:left;width:100%;margin-top:1.4em;min-height:100;background-color:white;border:2px
+solid #555555;z-index:3;}
+#okfine {background-color:"blue";}
+/*********************
+*       FOOTER       *
+*********************/
+#footer {clear:both;position:relative;bottom:0px;width:100%;height:50px;padding-top:10px;background-color:#333333;text-align:center;color:#FFFFFF;}

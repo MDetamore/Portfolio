@@ -1,0 +1,7 @@
+<h2>Documentation</h2>
+<p class="bold">General</p>
+<p class="indenttext">I'm used to providing project updates every step of the way. Documentation and project updates I write consist of project requirements, design specifications, code documentation (in addition to commenting code), end user guides, and daily progress updates.</p>
+<p class="bold">Trac</p>
+<p class="indenttext">I've used Trac for documentation purposes in both school and work settings. I've used the ticketing system, created wiki pages, and used its integrated version control system. </p>
+<p class="bold">UML and Diagramming Software</p>
+<p class="indenttext">UMLet, Omnigraffle</p>

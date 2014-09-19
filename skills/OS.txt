@@ -1,0 +1,5 @@
+<h2>Operating Systems</h2>
+<p class="bold">General</p><p class="indenttext">Good understanding of common operating system's filesystem structure, permissions, file types, processes and threads. </p>
+<p class="bold">Mac OS X</p><p class="indenttext">x86 based Macs are my preferred OS. The only thing I can't do on mac is play Minesweeper.</p>
+<p class="bold">Linux</p><p class="indenttext">I've worked with Red Hat and CentOS as servers and Ubuntu based distros in desktop environments.</p>
+<p class="bold">Microsoft Windows</p><p class="indenttext">I'm familiar with NT-based Windows distributions including XP, Vista, 7, and 8, and their OS-specific applications, file types, and installers, but have never programmed anything Windows-specific.</p>

@@ -1,0 +1,3 @@
+<h2>MySQL</h2>
+<p class="bold">How I've Used It</p><p class="indenttext">I've used MySQL in many projects in a variety of settings from personal products to much larger architectures at both work and school. These projects consisted of creating new databases and tables as well as modifying existing tables, queries, and routines for performance gains. I interact with MySQL using its command-line tool in addition to language-specific MySQL functions in Perl and PHP.</p>
+<p class="bold">Associated Competencies</p><p class="indenttext">Stored procedures, triggers, keys, storage and performance optimization, information security, privileges, and customized data logs</p>

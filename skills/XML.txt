@@ -1,0 +1,7 @@
+<h2>XML</h2>
+<p class="bold">Knowledge description:</p>
+
+<p class="bold">How I've used it: </p> 
+1. Customized data types parsed using ElementTree in Python
+2. Customized MusicXML format parsed using XMLPullParser in Java
+3. Unknowingly with SOAP

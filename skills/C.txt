@@ -1,0 +1,4 @@
+<h2>C</h2>
+<p class="bold">How I've Used It</p>
+<p class="indenttext">I've used C in a systems programming course at Kent State University, where we recreated several UNIX specific programs such as <i>who</i>, <i>passwd</i>, <i>tee</i>, <i>cp</i>, <i>pipe</i>, etc., as well as programmed command line animations, worked with file I/O and memory management, and wrote a client-server application that prints the time to clients with a an IP specified in a white list.</p>
+<p class="bold">Familiar Concepts</p><p class="indenttext">Pointers, memory management, command line arguments, file I/O</p>

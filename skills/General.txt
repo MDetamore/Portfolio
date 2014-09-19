@@ -1,0 +1,2 @@
+<h2>General</h2>
+<p class="indenttext">My primary focus is web design -- mostly back-end programming and database management, but it's always a treat to design user interfaces, especially when using JS related technologies. I'm always eager to learn new languages, frameworks and technologies. The languages I've chosen to list are those that I have the most knowledge of and am most comfortable programming in, not simply all the languages I've used in projects. Click a language to the left or tool to the right to see how I've used it.</p>

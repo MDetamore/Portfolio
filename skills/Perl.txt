@@ -1,0 +1,4 @@
+<h2>Perl 5</h2>
+<p class="bold">How I've Used It</p><p class="indenttext">I've used Perl in a variety of work projects that range from file IO and one-liners to desiging custom APIs.</p>
+<p class="bold">Associated Technologies Used</p><p class="indenttext">CPAN, mod_perl, CGI, DBI, Moose, SOAP, Memcached</p>
+
